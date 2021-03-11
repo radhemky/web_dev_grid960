@@ -1,0 +1,316 @@
+*{
+	box-sizing:border-box;	
+}
+
+body {
+  background-color:#FF9933;
+  background-image: linear-gradient(#FF9933, #FFFFFF, #138808);
+}
+
+.logo{
+	background-color:#3399FF;
+	
+	background-image: linear-gradient(to bottom right, #FF9933, #FFFFFF, #138808);
+	padding-left:10px;
+}
+
+.logo img{
+	width:70%;
+	height:150px;
+	
+	padding-left:50px;
+}
+
+.top_header{
+	width:40px;
+	text-align:center;
+	font-weight: bold;
+	font-size:20px;
+	
+}
+
+.cname{
+	background-color:black;
+	background-image: linear-gradient(to bottom right, #FF8F1C, #FFFFFF, #138808);
+	
+	border-color: coral;
+	color:#FF5733;
+	height:150px;
+	text-align:center;
+	padding-top:20px;
+	font-size:20px;
+	font-weight:bold;	
+}
+
+.menu{
+	/*border-style:solid;*/
+	margin-top:5px;
+	height:50px;
+	text-align:center;
+	padding-top:15px;
+	background-color:#404242;
+	color:white;
+}
+
+.menu a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*Index.html Start*/
+.banner{
+	margin-top:5px;
+}
+
+.middle1{
+	margin-top:5px;
+	background-color:#040100;
+	/*background-color:#777676;*/
+	color:#FCD307;
+	height:350px;
+	text-align:center;
+	font-size:15px;
+	border-color:#FCD307;
+	padding-top:15px;
+}
+
+.middle2{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:350px;
+	text-align:center;
+	font-size:20px;
+	border-color:#FCD307;
+	padding-top:5px;
+}
+
+.middle2 a{
+	text-decoration:none;
+	color:white;
+	border-style:ridge;
+}
+
+.middle2 a:hover{
+	color:#99cc00;
+	font-size:22px;
+}
+.middle3{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:350px;
+	border-color:#FCD307;
+	text-align:center;
+	padding-top:17px;
+}
+
+.middle4{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:350px;
+	padding-left:70px;
+	font-size:20px;
+	border-color:#FCD307;
+	padding-top:15px;
+}
+
+.middle4 a{
+	text-decoration:none;
+	color:#009999;
+}
+
+.middle4 a:hover{
+	color:#99cc00;
+	font-size:25px;
+}
+
+.middle4 p{
+	font-size:20px;
+}
+
+.middle5{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:350px;
+	text-align:center;
+	font-size:15px;
+	border-color:#FCD307;
+	padding-top:15px;
+}
+.middle5 a{
+	text-decoration:none;
+	color:red;
+}
+
+.middle5 a:hover{
+	color:#99cc00;
+}
+
+.middle6{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:350px;
+	text-align:center;
+	font-size:20px;
+	border-color:#FCD307;
+	padding-top:5px;
+}
+
+.middle6 a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+}
+
+.middle6 a:hover{
+	color:red;
+	font-size:18px;
+}
+
+.middle7{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:250px;
+	padding-left:70px;
+	font-size:20px;
+	border-color:#FCD307;
+	padding-top:5px;
+}
+
+.middle7 a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+}
+
+.middle7 a:hover{
+	color:blue;
+	font-size:20px;
+}
+.middle8{
+	margin-top:5px;
+	background-color:#040100;
+	color:white;
+	height:250px;
+	padding-left:70px;
+	font-size:20px;
+	border-color:#FCD307;
+	padding-top:5px;
+}
+
+.middle8 p{
+	color:white;
+	font-size:20px;
+}
+
+/*Index.html End*/
+
+/*About.html Start*/
+.about_text{
+	margin-top:5px;
+	background-color:white;
+	padding-left:10px;
+}
+/*About.html End*/
+
+/*training.html Start*/
+
+.training_text{
+	margin-top:5px;
+	background-color:white;
+	padding-left:10px;
+}
+
+.training_map_v{
+	margin-top:5px;
+	background-color:#404242;
+	color:white;
+}
+
+.training_map_v h3{
+	text-align:center;
+}
+
+/*training.html End*/
+
+/*join_nsg.html Start*/
+.join_nsg_text{
+	margin-top:5px;
+	background-color:white;
+	padding-left:10px;
+}
+/*join_nsg.html End*/
+
+/*vacancy.html start*/
+.vacancy_text{
+	margin-top:5px;
+	background-color:white;
+	padding-left:10px;
+}
+/*vacancy.html End*/
+
+/*contact.html start*/
+.contact_text{
+	height:650px;
+	margin-top:5px;
+	background-color:white;
+	padding-left:10px;
+}
+
+.contact_form{
+	padding-top:5px;
+	margin-top:5px;
+	height:400px;    
+	background-color:#53D5A1;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.contact_form h3{
+	text-align:center;
+}
+/*contact.html End*/
+
+.sub_menu{
+	margin-top:5px;
+	height:60px;
+	text-align:center;
+	padding-bottom:5px;
+	background-color:#404242;
+	color:white;
+}
+
+.footer{
+	margin-top:5px;
+	background-color:#404242;
+	height:200px;
+	padding-top:50px;
+	font-size:20px;
+	text-align:center;
+	color:white;
+}
+
+.footer a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
